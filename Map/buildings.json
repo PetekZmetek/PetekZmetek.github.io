@@ -1,0 +1,14 @@
+{ "columns":20,
+ "image":"..\/Map Images\/buildings.png",
+ "imageheight":640,
+ "imagewidth":640,
+ "margin":0,
+ "name":"buildings",
+ "spacing":0,
+ "tilecount":400,
+ "tiledversion":"1.2.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.2
+}

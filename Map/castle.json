@@ -1,0 +1,14 @@
+{ "columns":34,
+ "image":"..\/Map Images\/castle.png",
+ "imageheight":1024,
+ "imagewidth":1088,
+ "margin":0,
+ "name":"castle",
+ "spacing":0,
+ "tilecount":1088,
+ "tiledversion":"1.2.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.2
+}

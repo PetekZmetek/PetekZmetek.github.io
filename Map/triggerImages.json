@@ -1,0 +1,14 @@
+{ "columns":7,
+ "image":"..\/Map Images\/triggerImages.png",
+ "imageheight":192,
+ "imagewidth":224,
+ "margin":0,
+ "name":"triggerImages",
+ "spacing":0,
+ "tilecount":42,
+ "tiledversion":"1.2.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.2
+}

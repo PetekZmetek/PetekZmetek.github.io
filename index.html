@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#" />
+    <title>The Pixi Boiii</title>
+</head>
+
+<body bgcolor="#453C3C">
+    <div id="stage">
+        <canvas id="uiCanvas"></canvas>
+        <canvas id="randomBlocks" width="9600" height="1280"></canvas>
+        <canvas id="upperBlocks" width="9600" height="1280"></canvas>
+        <canvas id="gameCanvas"></canvas>
+        <canvas id="lowerBlocks" width="9600" height="1280"></canvas>
+        <canvas id="lowerBuildingBlocks" width="9600" height="1280"></canvas>
+        <canvas id="backgroundCanvas"></canvas>
+    </div>
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        canvas {
+            position: absolute;
+        }
+
+        #stage {
+            width: 1280px;
+            height: 720px;
+            margin: 0px auto;
+        }
+
+        #uiCanvas {
+            z-index: 3;
+        }
+
+        #gameCanvas {
+            z-index: 2;
+        }
+
+        #backgroundCanvas {
+            z-index: 1;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="howler.js"></script>
+    <script src="fpsmeter.min.js"></script>
+
+    <script type="text/javascript" src="GAME.js"></script>
+    <script type="text/javascript" src="CANVAS.js"></script>
+    <script type="text/javascript" src="MapProcessor.js"></script>
+    <script type="text/javascript" src="KeyListener.js"></script>
+    <script type="text/javascript" src="GameCamera.js"></script>
+    <script type="text/javascript" src="GameAnimations.js"></script>
+    <script type="text/javascript" src="TriggerAnimations.js"></script>
+    <script type="text/javascript" src="Mobs.js"></script>
+    <script type="text/javascript" src="PLAYER.js"></script>
+    <script type="text/javascript" src="HUD.js"></script>
+    <script type="text/javascript" src="GameAudio.js"></script>
+
+</body>
+
+</html>

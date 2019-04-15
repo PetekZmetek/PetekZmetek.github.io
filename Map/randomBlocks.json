@@ -1,0 +1,14 @@
+{ "columns":42,
+ "image":"..\/Map Images\/randomBlocks.png",
+ "imageheight":896,
+ "imagewidth":1344,
+ "margin":0,
+ "name":"randomBlocks",
+ "spacing":0,
+ "tilecount":1176,
+ "tiledversion":"1.2.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.2
+}
